@@ -3,7 +3,7 @@ title: Morris Winkler
 email: m.winkler@laydrop.com
 url: https://morriswinkler.github.io
 description: "This is the homepage of Morris Winkler, containing my work and project references."
-skills: "Programmer - Maker - Robotics - 3D Printing - Embedded Development - CAD"
+skills: "System Programmer - Hardware Developer - Roboticist"
 meta_author: Winkler Morris
 
 # Google webmaster tools
@@ -55,7 +55,7 @@ address:
   - line: 10115 Berlin, Germany
 
 # Credits content
-credits: 'mail: m.winker@laydrop.com tel: +49 (0) 176 396 596 98'
+credits: 'email: m.winker@laydrop.com <br>phone: +49 (0) 176 396 596 98'
 
 # Build settings
 markdown: kramdown

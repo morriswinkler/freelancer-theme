@@ -4,7 +4,7 @@ layout: default
 modal-id: 1
 date: 2014-07-19
 img: printerWS.jpg
-img-url:
+img-url: https://vimeo.com/62055033
 alt: image-alt
 project-date: 2013 - 2016
 project-date-url:

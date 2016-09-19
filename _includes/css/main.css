@@ -40,10 +40,25 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 190px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 3px;
     text-align: center;
+    font-size: 7px;
+    line-height: 1.42857143;
+}
+
+
+@media(min-width:768px) {
+
+    hr.star-light,
+    hr.star-primary {
+        max-width: 250px;
+        border-top: solid 5px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.42857143;
+    }
 }
 
 hr.star-light:after,
@@ -82,12 +97,18 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background-attachment: scroll;
+    background-image: url(/img/header-avatar-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 45%;
+    padding-bottom: 10px;
 }
 
 header img {
@@ -95,54 +116,105 @@ header img {
     margin: 0 auto 20px;
 }
 
+
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
+    text-align: right;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
+header .intro-text hr{
+    margin-right:0;
+}
+
+header .intro-text hr.star-light:after {
+    color: #fff;
+    background-color: #B2B2B2;
+}
+
 header .intro-text .skills {
+    display: block;
+    text-align: right;
     font-size: 1.25em;
     font-weight: 300;
+
 }
+
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 45%;
+        padding-bottom: 10px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        text-align: right;
+        font-size: 2.0em;
     }
 
+    header .intro-text hr{
+        margin-right:0;
+    }
+
+
     header .intro-text .skills {
-        font-size: 1.75em;
+        text-align: right;
+        font-size: 1.3em;
     }
 }
 
+@media (min-width: 1200px) {
+    header .container {
+        padding-top: 45%;
+        padding-bottom: 50px;
+    }
+
+    header .intro-text {
+        text-align: center;
+    }
+
+    header .intro-text .name {
+        font-size: 4.7em;
+    }
+
+    header .intro-text hr{
+        margin-right: auto;
+    }
+
+
+    header .intro-text .skills {
+        text-align: center;
+        font-size: 1.7em;
+    }
+}
+
+
 @media(min-width:768px) {
-    .navbar-fixed-top {
+    .navbar-default {
         padding: 25px 0;
+        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
-    .navbar-fixed-top .navbar-brand {
+    .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
-    .navbar-fixed-top.navbar-shrink {
+    .navbar-default.navbar-shrink {
         padding: 10px 0;
+        background-color: #2c3e50;
     }
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
+    .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
@@ -197,6 +269,11 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+
+#portfolio .portfolio-item pre{
+    margin: 20px 0 40px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -405,6 +482,11 @@ footer .footer-below {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content .project-links {
+    margin: 30px 0;
+    font-size: 20px;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
@@ -453,4 +535,8 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#about p {
+    text-align: justify;
 }

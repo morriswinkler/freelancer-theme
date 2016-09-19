@@ -1,5 +1,6 @@
 # Site settings
-title: Morris Winkler 
+title: morriswinkler.github.io
+person: morris winkler
 email: m.winkler@laydrop.com
 url: https://morriswinkler.github.io
 description: "This is the homepage of Morris Winkler, containing my work and project references."
@@ -16,7 +17,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+#contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -44,8 +45,8 @@ social:
     url: https://www.facebook.com/profile.php?id=100010656461890
   - title: stack-overflow
     url: http://stackoverflow.com/users/6501417/morris-winkler
-  - title: bitbucket
-    url: http://bitbucket.org/m
+  #- title: bitbucket
+  #  url: http://bitbucket.org/
   - title: github
     url: http://github.com/morriswinkler
 

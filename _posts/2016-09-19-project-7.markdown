@@ -1,0 +1,17 @@
+---
+title: BitsToAtom Generative Design App
+layout: default
+modal-id: 7
+date: 2016-09-18
+img: bits2atoms.jpg
+img-url: https://owncloud.laydrop.com/index.php/s/70GufZ0Q7HRuSDQ
+alt: image-alt
+project-date: Augist 2015
+category: Programming
+service: Web App
+description: Third and currently last attempt for a generative design interface. This time i took everything I had learned from my last two attempts and made grasshopper plugin that renders a 3D model and streams it over web sockets to a browser.
+links:
+    - type: Video
+      message: Screencast of this app.
+      value: https://owncloud.laydrop.com/index.php/s/70GufZ0Q7HRuSDQ
+---

@@ -1,12 +1,18 @@
 ---
+title: Build Your 3D Printer
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2014-07-19
+img: printerWs.jpg
+img-url:
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+project-date: 2013 - 2016
+project-date-url:
+category: 3D Printing
+service: Workshop
+description: As a first hour 3D printing enthusiast, I helped to design and develop the i3 Berlin and gave 100+ Workshops where participants build a 3D printer from our building kit.
+links:
+    - type: Video
+      message: Watch a video of the very first workshop.
+      value: https://vimeo.com/62055033
 ---

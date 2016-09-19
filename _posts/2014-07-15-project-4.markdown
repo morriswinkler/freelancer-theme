@@ -8,5 +8,5 @@ alt: image-alt
 project-date: 2013 - 2016
 category: Electronics
 service: Hardware Development
-description: My experience with microcontrollers, sensors and actuators are diverse. I have been working with Atmel AVR, Texas Instruments msp430, NXP LPC and others. This is a small prototype of an Arduino based dosing pump. It is part of a larger setup for a new manufacturing process that I helped to develop.
+description: My experiences with microcontrollers, sensors and actuators are diverse. I have been working with Atmel AVR, Texas Instruments msp430, NXP LPC and others. This image depicts a small prototype of an Arduino based dosing pump. It was part of a larger setup for a new manufacturing process for design tiles I helped to develop.
 ---

@@ -1,0 +1,19 @@
+---
+title: i3 Berlin
+layout: default
+modal-id: 8
+date: 2014-07-19
+img: i3berlin.jpg
+img-url: https://www.udemy.com/building-a-reprap-3d-printer/
+alt: image-alt
+project-date: 2013 - 2016
+project-date-url:
+category: 3D Printing
+service: Hardware Development
+description: As an early desktop 3D printing enthusiast, I helped to design and develop the i3 Berlin, it was a great experience. And while this was my first mayor hardware project I have learned a great deal out of it. For example, If you can avoid it, don't make your hardware consists of more than 300 parts.
+
+links:
+    - type: Video
+      message: Watch the printer in action
+      value: https://www.udemy.com/building-a-reprap-3d-printer/
+---

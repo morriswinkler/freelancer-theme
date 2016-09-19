@@ -9,6 +9,7 @@ alt: image-alt
 project-date: 2015 - 2016
 category: 3D Printing
 service: Hardware Development
-description: During the last 12 month,  I spent my time inventing new ways for 3d food printing. I gained very interesting insides on mass food manufacturing state of the art food ingredients tech. After all, it is not as scary as you might think.
-
+description: During the last 12 month,  I spent my time inventing new ways for 3d food printing. While doing this, I gained very interesting insides on mass food manufacturing and the state of the art food ingredients technology. My personal impression could be phrased as "it is very technical, but it is still very much food". Also understanding the level of quality of our alimentation, here in the somewhat developed world.
+             Drove me toward appreciating the work of people in that particular field way more than I did before.
+             
 ---

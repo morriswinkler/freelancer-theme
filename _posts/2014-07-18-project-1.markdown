@@ -10,7 +10,7 @@ project-date: 2013 - 2016
 project-date-url:
 category: 3D Printing
 service: Workshop
-description: As a first hour 3D printing enthusiast, I helped to design and develop the i3 Berlin and gave 100+ Workshops where participants build a 3D printer from our building kit.
+description: The i3 Berlin building workshops where a great experience and told me a lot about how to observe the user and get valuable feedback. We gave more than 100 Workshops were participants did build a 3D printer from what was in the beginning merely spare parts.
 links:
     - type: Video
       message: Watch a video of the very first workshop.

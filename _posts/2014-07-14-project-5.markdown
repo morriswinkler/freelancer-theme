@@ -9,7 +9,7 @@ alt: image-alt
 project-date: March 2014
 category: Programming
 service: IOS App
-description: The second attempt for a generative design interface made for Makerbot  Europe. It is the ensemble of an ios app programmed in swift and a backend written in golang that renders 3D models with the help of the open source modelling software Blender.
+description: The second attempt for a generative design interface made for MakerBot  Europe. It is the ensemble of an ios app programmed in swift and a backend written in golang that renders 3D models with the help of the open source modeling software Blender. While the app has eventually the same functionality like the Vodaphone app, it is completely reworked behind the scenes. You could consider it the next version, of a concept endeavor into generative design.
 links:
     - type: Video
       message: The app in action.

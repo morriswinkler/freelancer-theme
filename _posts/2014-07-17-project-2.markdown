@@ -9,7 +9,8 @@ alt: image-alt
 project-date: September 2013
 category: Programming
 service: Android App
-description: This was a first attempt for a generative design interface, made for the Vodaphone booth at IFA 2013.
+description: This was a first attempt for a generative design interface, made for the Vodaphone booth at IFA 2013. And this is how it works, you start the app on your phone and record a sound. Then it would generate a design based on that audio recording. All the design information was encoded in java code inside the app.
+
 links:
     - type: Video
       message: Watch a screencast of the app in action.

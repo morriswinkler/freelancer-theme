@@ -98,7 +98,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(/img/header-avatar-bg.jpg);
+    background-image: url(/img/header-avatar-bg-small.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -106,8 +106,9 @@ header {
     background-size: cover;
 }
 
+
 header .container {
-    padding-top: 45%;
+    padding-top: 125%;
     padding-bottom: 10px;
 }
 
@@ -121,14 +122,10 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.5em;
     font-weight: 700;
-}
-
-header .intro-text hr{
-    margin-right:0;
 }
 
 header .intro-text hr.star-light:after {
@@ -138,12 +135,39 @@ header .intro-text hr.star-light:after {
 
 header .intro-text .skills {
     display: block;
-    text-align: right;
-    font-size: 1.25em;
+    text-align: center;
+    font-size: 1.0em;
     font-weight: 300;
 
 }
 
+
+@media(min-width:480px) {
+
+    header {
+        background-image: url(/img/header-avatar-bg.jpg);
+    }
+
+    header .container {
+        padding-top: 45%;
+        padding-bottom: 10px;
+    }
+
+    header .intro-text .name {
+        text-align: right;
+        font-size: 2.0em;
+    }
+
+    header .intro-text hr{
+        margin-right:0;
+    }
+
+
+    header .intro-text .skills {
+        text-align: right;
+        font-size: 1.25em;
+    }
+}
 
 @media(min-width:768px) {
     header .container {

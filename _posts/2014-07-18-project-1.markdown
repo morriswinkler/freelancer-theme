@@ -3,7 +3,7 @@ title: Build Your 3D Printer
 layout: default
 modal-id: 1
 date: 2014-07-19
-img: printerWs.jpg
+img: printerWS.jpg
 img-url:
 alt: image-alt
 project-date: 2013 - 2016

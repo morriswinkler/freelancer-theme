@@ -10,6 +10,8 @@
 
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="img/favicon.ico?v=4">
 
+    <link rel="stylesheet" href="{{ "/style.css" }}">
+
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
@@ -20,14 +22,6 @@
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <style type="text/css">
-        {% capture include_to_scssify %}
-        {% include css/style.scss %}
-        {% endcapture %}
-        {{ include_to_scssify | scssify }}
-    </style>
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

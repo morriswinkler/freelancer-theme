@@ -1,0 +1,15 @@
+---
+title: Mosaik
+layout: default
+modal-id: 9
+date: 2016-09-22
+img: mosaik.gif
+img-url:
+alt: image-alt
+project-date: 2015 - 2016
+project-date-url:
+category: Automation
+service: Hardware Development
+description: This is the prototype of a machine that creates design tiles.
+
+---

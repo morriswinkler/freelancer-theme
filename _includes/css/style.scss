@@ -579,3 +579,19 @@ transform: rotate(90deg);
 #skills, #skills .star-light:after {
   background-color: #{{ site.color.secondary }};
 }
+
+.success .table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #{{ site.color.primary }};
+}
+
+.success .table-striped>tbody>tr>td:last-child,.success .table-striped>tbody>tr>th:last-child  {
+  text-align: right;
+}
+
+.success .table-striped>tbody>tr>td {
+  font-weight: 100;
+}
+
+.success li {
+  margin-bottom: 50px;
+}

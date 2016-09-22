@@ -23,12 +23,13 @@ bing_verify:
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
 
-# Color settings (hex-codes without the leading hash-tag)
+# Color settings (hex-codes without the leading hash-tag) see https://github.com/thomaspark/bootswatch/tree/gh-pages/flatly
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 1695A3 #80B3FF
+  primary-rgb: "34, 83, 120" #"24,288,156" #"128,179,255"
+  secondary: 225378 #2c3e50 #FD6E8A
+  secondary-dark: 1E4769 #233140 #A2122F
+  danger: EB7F00
 
 # Footer settings
 footer:
@@ -61,3 +62,9 @@ credits: 'email: m.winker@laydrop.com <br>phone: +49 (0) 176 396 596 98'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-sass-converter
+
+sass:
+    style: compressed

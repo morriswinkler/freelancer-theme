@@ -235,7 +235,7 @@ header .intro-text .skills {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #2c3e50;
+        background-color: #{{ site.color.secondary }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -566,4 +566,8 @@ footer .footer-below {
 
 #about p {
     margin-bottom: 50px;
+}
+
+#skills, #skills .star-light:after {
+    background-color: #{{ site.color.secondary }};
 }

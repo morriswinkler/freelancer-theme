@@ -1,5 +1,6 @@
 ---
 title: Mosaik
+sitemap: false
 layout: default
 modal-id: 9
 date: 2016-09-22

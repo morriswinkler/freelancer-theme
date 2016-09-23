@@ -1,5 +1,6 @@
 ---
 title: i3 Berlin
+sitemap: false
 layout: default
 modal-id: 8
 date: 2014-07-19

@@ -1,5 +1,6 @@
 ---
 title: Microcontroller
+sitemap: false
 layout: default
 modal-id: 4
 date: 2016-09-19

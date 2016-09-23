@@ -1,5 +1,6 @@
 ---
 title: Makerbot Generative Design App
+sitemap: false
 layout: default
 modal-id: 5
 date: 2016-09-18

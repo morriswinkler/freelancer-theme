@@ -65,6 +65,7 @@ permalink: pretty
 
 gems:
   - jekyll-sass-converter
+  - jekyll-sitemap
 
 sass:
     style: compressed

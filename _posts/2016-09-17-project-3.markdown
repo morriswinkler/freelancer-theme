@@ -1,4 +1,4 @@
-<---
+---
 title: 3D Modeling & CAD
 sitemap: false
 layout: default
@@ -9,5 +9,5 @@ alt: image-alt
 project-date: 2012 - 2016
 category: 3D / CAD
 service: Workshops
-description: I gave many 3D modeling classes, using a variety of different modeling programs, always with the focus on designing for 3D printing. Most of the time i am either using Blender, Rhino and Fusion 360.
+description: I gave many 3D modeling classes, using a variety of different modeling programs, always with the focus on designing for 3D printing. Most of the time i am either using Blender, Rhino3D or Fusion 360.
 ---
